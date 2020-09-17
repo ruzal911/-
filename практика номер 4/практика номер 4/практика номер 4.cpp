@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -26,7 +26,6 @@ int main()
    
     cout << "\t\t\t___________ТРЕТЬЕ ЗАДАНИЕ:___________" << endl;
     double x,y,Middle;
-    cout << "Введите первое число:" << endl;
     cin >> x;
     cout << "Введите второе число:" << endl;
     cin >> y;
@@ -44,10 +43,10 @@ int main()
     minus = (first * first) - (second * second);
     res1 = (first * first) * (second * second);
     res2 = (first * first) / (second * second);
-    cout << "Сумма чисел равна:" << summ << endl;
-    cout << "Разность чисел равна:" << minus << endl;
-    cout << "Произведение числе равно:" << res1 << endl;
-    cout << "Частное квадратов равно:" << res2 << endl;
+    cout << "Сумма квадратов чисел равна:" << summ << endl;
+    cout << "Разность квадратов чисел равна:" << minus << endl;
+    cout << "Произведение квадратов чисел равно:" << res1 << endl;
+    cout << "Частное квадратов чисел равно:" << res2 << endl;
 
     cout << "\t\t\t___________ПЯТОЕ ЗАДАНИЕ:___________" << endl;
     int summ1, minus1, ress;
@@ -65,4 +64,5 @@ int main()
     cout << "Произведение модулей чисел равно:" << res1 << endl;
     cout << "Частное модулей квадратов равно:" << res2 << endl;
 }
+
 
